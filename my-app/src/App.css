@@ -1,6 +1,7 @@
 
 .App {
   text-align: center;
+    font-family: 'Anek Gujarati', sans-serif;
 }
 
 .App-logo {
@@ -27,10 +28,14 @@
 
 .App-link {
   color: hsl(75, 72%, 54%);
-  letter-spacing: 5px;
-  font-variant: small-caps;
+  letter-spacing: 8px;
   text-decoration: none;
+  font-family: 'Anek Gujarati', sans-serif;
+}
 
+.App-header{
+  font-family: 'Chicle', cursive;
+  text-shadow: 5px 5px 10px rgb(3, 3, 3);
 }
 
 @keyframes App-logo-spin {
@@ -46,7 +51,7 @@
  background-color: #70ba9f;
  width: 5rem;
  margin: 1rem;
-min-height: 5vh;
+ min-height: 5vh;
 
 }
 .footer{
@@ -63,8 +68,18 @@ min-height: 5vh;
 
 .projectCard {
   text-decoration: none;
+  font-family: 'Anek Gujarati', sans-serif;
+
 }
 
 .projectLink {
   color: hsl(75, 72%, 54%);
+  text-decoration: none;
+  text-shadow: 2px 2px 5px rgb(3, 3, 3);
+  font-family: 'Chicle', cursive;
+  
+}
+
+a:hover {
+  color: #70ba9f;
 }

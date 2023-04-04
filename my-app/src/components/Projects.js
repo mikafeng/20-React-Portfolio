@@ -18,12 +18,12 @@ return(
                         </div>
                         <div className="col-md-8"> 
                             <div className="card-body">
-                                    <a href={project.link} className=" projectLink link-opacity-50-hover">
-                                        <h1 className="card-title">
-                                    {project.title}
+                                <a href={project.link} className=" projectLink link-opacity-50-hover">
+                                <h1 className="card-title p-3">
+                                {project.title}
                                 </h1>
                                 </a>
-                                <p className="card-text">{project.description}</p>
+                                <p className="card-text p-2">{project.description}</p>
                             </div>
                         </div>
                     </div>
