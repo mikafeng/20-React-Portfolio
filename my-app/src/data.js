@@ -10,14 +10,14 @@ export const projects = [
     {
         title: "Weather Vibes",
         subtitle: "youtube API",
-        description: "description",
+        description: "Website that pairs music with current weather in your city using APIs.",
         image: WMW,
-        link: "",
+        link: "https://swaguespack.github.io/WeatherVibes/",
     },
     {
         title: "Tech Blog",
         subtitle: "MVC framework",
-        description: "description",
+        description: "A CMS style blog using a MVC framework that revolves around users sharing their thoughts on tech.",
         image: "",
         link: "",
     },

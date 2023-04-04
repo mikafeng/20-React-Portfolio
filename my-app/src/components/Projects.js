@@ -11,22 +11,23 @@ return(
             </div>
             <div>
                 {projects.map((project) => (
-                    <div className="card shadow p-3 mb-5 bg-body-tertiary rounded">
-                    <a href="">
-
-                        <div> 
-                            <div className="col-md-4">
-                            <image src={project.image} alt={project.description} className="img-thumbnail"/>
-                            </div>
-                            <h2>
-                                {project.subtitle}
-                            </h2>
-                            <h1>
-                                {project.title}
-                            </h1>
-                            <p>{project.description}</p>
+                    <div className="card projectCard text-bg-dark shadow p-3 mb-5 bg-body-tertiary rounded">
+                    <div className="row">
+                        <div className="col-md-4">
+                            <image src={project.image} alt={project.description} className="portImg"/>
                         </div>
-                    </a>
+                        <div className="col-md-8"> 
+                            <div className="card-body">
+                                    <a href={project.link} className=" projectLink link-opacity-50-hover">
+                                        <h1 className="card-title">
+                                    {project.title}
+                                </h1>
+                                </a>
+                                <p className="card-text">{project.description}</p>
+                            </div>
+                        </div>
+                    </div>
+
                     </div>
                 ))
                 }

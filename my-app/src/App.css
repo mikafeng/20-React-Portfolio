@@ -56,4 +56,15 @@ min-height: 5vh;
 
 }
 
+.portImg {
+  max-width: 100%;
+  height: auto;
+}
 
+.projectCard {
+  text-decoration: none;
+}
+
+.projectLink {
+  color: hsl(75, 72%, 54%);
+}
