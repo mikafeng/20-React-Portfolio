@@ -14,10 +14,10 @@ return(
                     <div className="card shadow p-3 mb-5 bg-body-tertiary rounded">
                     <a href="">
 
-                        <div>
-                            <img src="" alt=""/>
-                        </div>
-                        <div>
+                        <div> 
+                            <div className="col-md-4">
+                            <image src={project.image} alt={project.description} className="img-thumbnail"/>
+                            </div>
                             <h2>
                                 {project.subtitle}
                             </h2>
