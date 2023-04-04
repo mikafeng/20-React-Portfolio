@@ -2,18 +2,14 @@ import React from "react";
 
 export default function About() {
 return(
-    <section>
-        <div>
-            <div>
-                <h1>Welcome! This is me, Mika.</h1>
-                <p>
-                    I'm a new developer working in the MERN stack and an Atlanta artist.
-                </p>
-                <div id="links">
-                    <a href="contact">Contact</a>
-                    <a href="projects">Projects</a>
-                </div>
-            </div>
+    <section className="about">
+        <div className="row m-3">
+            <p className="blockquote">
+                I'm a new developer working in the MERN stack and an Atlanta artist.
+             </p>
+        </div>
+        <div className="row m-5">
+            <h3> Professional Skillset </h3>
         </div>
     </section>
  );
