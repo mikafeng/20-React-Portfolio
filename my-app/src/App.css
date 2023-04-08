@@ -47,6 +47,11 @@
   }
 }
 
+
+.abtHead {
+  font-style: oblique;
+}
+
 .footer-btn{
  background-color: #70ba9f;
  width: 5rem;
@@ -59,6 +64,12 @@
   display: flex;
   justify-content: center;
 
+}
+
+#project-title {
+  font-family: 'Chicle', cursive;
+  color: hsl(0, 0%, 2%);
+  text-shadow: 5px 5px 7px hsl(75, 72%, 54%);
 }
 
 .portImg {
@@ -76,7 +87,7 @@
   color: hsl(75, 72%, 54%);
   text-decoration: none;
   text-shadow: 2px 2px 5px rgb(3, 3, 3);
-  font-family: 'Chicle', cursive;
+  font-family: 'Anek Gujarati', sans-serif;
   
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function About() {
 return(
     <section className="about m-3 p-4">
@@ -9,7 +10,10 @@ return(
             </p>
         
             <div className="col">
-                <h3> Professional Skillset </h3>
+                <h2 className="abtHead"> Professional Skillset </h2>
+                <div className="container">
+                    <h3>JavaScript, NodeJS, MongoDB, Express, React, MySQL</h3>
+                </div>
             </div>
         </div>
     </section>
