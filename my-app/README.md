@@ -70,4 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
+Icongs:
 <a target="_blank" href="https://icons8.com/icon/vaAZ72IlpGJw/npm-a-package-manager-for-the-javascript-programming-language">NPM a package manager for the JavaScript programming language</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+Forms : https://herotofu.com/

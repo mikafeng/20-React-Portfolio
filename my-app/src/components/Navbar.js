@@ -1,6 +1,8 @@
 import React from "react";
 
 export default function Navbar() {
+
+
     return (
         <header className="App-header p-2">
             <h1 className="display-1 p-3 m-3">Mika Fengler</h1>

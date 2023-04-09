@@ -7,7 +7,7 @@ return(
         <div>
             <div>
                 <h1 id="project-title">Projects</h1>
-                <p>descriptionssss</p>
+                
             </div>
             <div>
                 {projects.map((project) => (
