@@ -1,4 +1,4 @@
-
+/* APP STYLING */
 .App {
   text-align: center;
     font-family: 'Anek Gujarati', sans-serif;
@@ -26,6 +26,11 @@
   color: white;
 }
 
+.App-header{
+  font-family: 'Chicle', cursive;
+  text-shadow: 5px 5px 10px rgb(3, 3, 3);
+}
+
 .App-link {
   color: hsl(75, 72%, 54%);
   letter-spacing: 8px;
@@ -33,37 +38,17 @@
   font-family: 'Anek Gujarati', sans-serif;
 }
 
-.App-header{
-  font-family: 'Chicle', cursive;
-  text-shadow: 5px 5px 10px rgb(3, 3, 3);
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
+/* ABOUT STYLING */
 .abtHead {
   font-style: oblique;
 }
 
-.footer-btn{
- background-color: #70ba9f;
- width: 5rem;
- margin: 1rem;
- min-height: 5vh;
 
-}
-.footer{
-  background-color: black;
+
+/* PORTFOLIO STYLING */
+.project-container {
   display: flex;
-  justify-content: center;
-
+  
 }
 
 #project-title {
@@ -84,17 +69,18 @@
 }
 
 .projectLink {
-  color: hsl(75, 72%, 54%);
   text-decoration: none;
   text-shadow: 2px 2px 5px rgb(3, 3, 3);
   font-family: 'Anek Gujarati', sans-serif;
-  
 }
 
 a:hover {
-  color: #70ba9f;
+  color: #000000;
 }
 
+
+
+/* FOOTER STYLING */
 .footer {
   width: 100%;
   display: flex;
@@ -106,4 +92,18 @@ a:hover {
  font-size: 3rem;
  padding: 1rem;
  color: white;
+}
+
+.footer-btn{
+ background-color: #70ba9f;
+ width: 5rem;
+ margin: 1rem;
+ min-height: 5vh;
+
+}
+.footer{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+
 }
