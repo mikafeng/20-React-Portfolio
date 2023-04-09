@@ -14,18 +14,18 @@ return(
                     <div className="portfolio-items container-fluid mt-5">
                     <div className="row">
                     <div className="col-11 mx-auto">
-                        <div className="row my-5">
+                        <div className="row my-≤≤≤≤≤≤≤¬">
                         <div className="card projectCard">
-                        <div>
-                            <img src={project.image} alt="" className="img-fluid"/>
-                        </div>
-                        <a href={project.link} className=" projectLink link-opacity-50-hover">
-                        <div>
-                            <h2>{project.title}</h2>
-                        </div>
-                           <p className="card-text p-2">{project.description}</p>
-                        </a>
-                        </div>
+                            <div>
+                                <img src={project.image} alt="project-img" className="img-fluid"/>
+                            </div>
+                            <a href={project.link} className=" projectLink link-opacity-50-hover">
+                            <div>
+                                <h2>{project.title}</h2>
+                            </div>
+                            <p className="card-text p-2">{project.description}</p>
+                            </a>
+                            </div>
                         </div>
 
                     </div>
