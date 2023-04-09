@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 
+
 export default function Footer() {
     return (
         <section className="footer m-3 p-5">
