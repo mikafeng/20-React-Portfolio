@@ -1,22 +1,29 @@
 import React from "react";
-import {npm} from "../assets"
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+
+
 export default function Footer() {
     return (
         <section className="footer m-3 p-5">
-            <div className=" footer row in-line">
-                <a href="https://github.com/mikafeng">
-                <button type="button" class=" footer-btn btn btn-dark btn-lg btn-floating">
-                    <i class="fas fa-camera"></i>
-            
-                </button>
-                </a>
-                <button type="button" class=" footer-btn btn btn-dark btn-lg btn-floating">
-                    <i class="fas fa-camera"></i>
-                </button>
-                <button type="button" class=" footer-btn btn btn-dark btn-lg btn-floating">
-                    <i class="fas fa-camera"></i>
-                </button>
-            </div>
+            <footer>
+                <ul className="row">
+                    <a href="">
+                        <li>
+                            <FaGithub />
+                        </li>
+                    </a>
+                    <a href="">
+                        <li>
+                            <FaLinkedin />
+                        </li>
+                    </a>
+                    <a href="">
+                        <li>
+                            <FaInstagram />
+                        </li>
+                    </a>
+                </ul>
+            </footer>
         </section>
     );
 }
