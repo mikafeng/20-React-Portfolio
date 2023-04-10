@@ -2,6 +2,8 @@
 .App {
   text-align: center;
     font-family: 'Anek Gujarati', sans-serif;
+    background-color: #fcfbef
+  ;
 }
 
 .App-logo {
@@ -16,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #3c3e3f;
   min-height: 30vh;
   display: flex;
   flex-direction: column;
@@ -27,7 +29,7 @@
 }
 
 .App-header{
-  font-family: 'Chicle', cursive;
+  /* font-family: 'Chicle', cursive; */
   text-shadow: 5px 5px 10px rgb(3, 3, 3);
 }
 
@@ -48,25 +50,28 @@
 /* PORTFOLIO STYLING */
 .project-container {
   display: flex;
-  
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
 }
+
 
 #project-title {
-  font-family: 'Chicle', cursive;
   color: hsl(0, 0%, 2%);
-  text-shadow: 5px 5px 7px hsl(75, 72%, 54%);
 }
 
-.portImg {
-  max-width: 100%;
-  height: auto;
-}
 
 .projectCard {
   text-decoration: none;
   font-family: 'Anek Gujarati', sans-serif;
 
 }
+
+.project-img {
+ filter: grayscale(100%);
+}
+
 
 .projectLink {
   text-decoration: none;
