@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.0218a788.css",
+    "main.js": "/my-app/static/js/main.d0898f39.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/vibes.png": "/my-app/static/media/vibes.b30827caf35fa1177150.png",
+    "static/media/WMW.png": "/my-app/static/media/WMW.44c015053f63171ef6f3.png",
+    "static/media/jsQuiz.png": "/my-app/static/media/jsQuiz.3daaa02bc89c6114612a.png",
+    "static/media/work.png": "/my-app/static/media/work.77f21f577d9b96a96a79.png",
+    "static/media/teachBlog.png": "/my-app/static/media/teachBlog.e032cc25e98d1e02a06a.png",
+    "static/media/employee-tracker.png": "/my-app/static/media/employee-tracker.7109dcb783b00a5f48ae.png",
+    "index.html": "/my-app/index.html",
+    "main.0218a788.css.map": "/my-app/static/css/main.0218a788.css.map",
+    "main.d0898f39.js.map": "/my-app/static/js/main.d0898f39.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0218a788.css",
+    "static/js/main.d0898f39.js"
+  ]
+}
