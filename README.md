@@ -1,8 +1,25 @@
-# Getting Started with Create React App
+# Developer Portfolio
+
+A portfolio showcasing different projects with an about me, contact and footer section.
+
+## Description
+
+This portfolio is created with React and Bootstrap. It is a single page web application that has a simple template to customize to user's needs. 
+
+## Installation
+
+Clone the code in this repository to your local device.
+In code editor of choice, run `npm i` to install dependencies. 
+Run `npm run build` to build the app for production.
+Run `npm start` to run the application in devlopment mode.
+
+See 'Getting Started with Create React App' below for helpful links and available scripts that come with create react app.
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -74,3 +91,6 @@ Icongs:
 <a target="_blank" href="https://icons8.com/icon/vaAZ72IlpGJw/npm-a-package-manager-for-the-javascript-programming-language">NPM a package manager for the JavaScript programming language</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 Forms : https://herotofu.com/
+
+## Lisence
+MIT
