@@ -14,8 +14,12 @@ function App() {
 
     <main className='App'>
       <Navbar/>
+      <hr
+      style={{color: 'mustard'}}
+      />
       <About/>
       <Projects/>
+      <hr/>
       <Contact/>
       <Footer/>
     </main>

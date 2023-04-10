@@ -6,7 +6,7 @@ return(
     <section className="about m-2 p-4">
         <div className="row p-3">
             <p className="col about p-4 m-3"> 
-                Hey! I'm Mika. <br/>
+                Hi there! I'm Mika. <br/>
                 I'm a new developer working with the MERN stack
                 and an Atlanta artist.
             </p>

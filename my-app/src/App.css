@@ -1,9 +1,16 @@
 /* APP STYLING */
+/* font-family: 'Roboto Condensed',
+sans-serif; */
+/* font-family: 'Righteous',
+cursive; */
+/* font-family: 'Anek Gujarati',
+sans-serif; */
+
 .App {
   text-align: center;
-    font-family: 'Anek Gujarati', sans-serif;
-    background-color: #edf0f4
-  ;
+    background-color: #f4f1ea;
+    font-family: 'Roboto Condensed',
+    sans-serif;
 }
 
 .App-logo {
@@ -18,28 +25,33 @@
 }
 
 .App-header {
-  background-color: #3c3e3f;
   min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:#011dcb;
 }
 
 .App-header{
-  /* font-family: 'Chicle', cursive; */
-  text-shadow: 5px 5px 10px rgb(3, 3, 3);
+  font-family: 'Righteous',
+  cursive;
+  text-shadow: 5px 5px 10px rgb(255, 255, 255);
 }
 
 .App-link {
-  /* color: hsl(75, 72%, 54%); */
-  color: white;
+  color: #697e8c;
   letter-spacing: 8px;
   text-decoration: none;
-  font-family: 'Anek Gujarati', sans-serif;
+  font-family: 'Roboto Condensed',
+  sans-serif;
 }
+
+/* .App-link.active {
+  color: blue;
+  text-decoration: underline;
+} */
 
 /* ABOUT STYLING */
 .abtHead {
@@ -49,6 +61,7 @@
 .about{
   text-align: left;
   font-size: larger;
+  color: #2a1e11;
 }
 
 .skills{
@@ -68,33 +81,45 @@
 }
 
 #project-title {
-  color: hsl(0, 0%, 2%);
+  color:#011dcb;
+  font-weight: 800;
+  font-family: 'Righteous',
+  cursive;
 }
 
 .projectCard {
-  text-decoration: none;
-  font-family: 'Anek Gujarati', sans-serif;
-  background-color: #d0d3cf;
+ text-decoration: none;
+ background-color:#f1c661;
 }
 
 .project-img {
- filter: grayscale(100%);
+ /* filter: grayscale(100%); */
 }
 
 .project-img:hover {
-  filter: grayscale(0%);
+
 }
 
+.card-title{
+  font-weight: 400;
+}
 
 .projectLink {
+  font-weight: 500;
   text-decoration: none;
   color: black;
 }
 
 a:hover {
-  color: #2e5027;
+  color: white#011dcb;
 }
 
+#contact-title {
+  color: #011dcb;
+  font-weight: 800;
+  font-family: 'Righteous',
+    cursive;
+}
 
 
 /* FOOTER STYLING */
@@ -109,6 +134,7 @@ a:hover {
  font-size: 3rem;
  padding: 1rem;
  color: white;
+/* box-shadow : 5px 5px 10px #011dcb; */
 }
 
 .footer-btn{
@@ -116,11 +142,11 @@ a:hover {
  width: 5rem;
  margin: 1rem;
  min-height: 5vh;
-
+/* text-shadow: 5px 5px 10px #011dcb; */
 }
+
 .footer{
-  background-color: black;
+  background-color:#697e8c;
   display: flex;
   justify-content: center;
-
 }

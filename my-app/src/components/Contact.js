@@ -16,7 +16,7 @@ export default function Contact() {
     return(
         <section className="m-3">
             <div>
-                <h1>CONTACT</h1>
+                <h1 id="contact-title">CONTACT</h1>
             </div>
             <form onSubmit={handleSubmit}>
                 <div className="row">
