@@ -6,8 +6,8 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 export default function Footer() {
     return (
         <section className="footer m-3 p-5">
-            <footer>
-                <ul className="row">
+            <footer className="row">
+                <ul>
                     <a href="https://github.com/mikafeng">
                         <li>
                             <FaGithub />

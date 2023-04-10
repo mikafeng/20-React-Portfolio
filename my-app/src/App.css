@@ -46,6 +46,14 @@
   font-style: oblique;
 }
 
+.about{
+  text-align: left;
+  font-size: larger;
+}
+
+.skills{
+  text-align: center;
+}
 
 
 /* PORTFOLIO STYLING */

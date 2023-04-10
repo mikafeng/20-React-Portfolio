@@ -6,7 +6,7 @@ return(
     <section id="projects" className="p-2 container-fluid">
         <div>
             <div>
-                <h1 id="project-title">Projects</h1>
+                <h1 id="project-title">PROJECTS </h1>
                 
             </div>
             <div className="project-container m-5">
