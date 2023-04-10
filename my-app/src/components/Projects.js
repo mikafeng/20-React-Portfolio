@@ -3,22 +3,20 @@ import {projects} from "../data";
 
 export default function Projects() {
 return(
-    <section id="projects" className="container-fluid">
+    <section id="projects" className="p-2 container-fluid">
         <div>
             <div>
                 <h1 id="project-title">Projects</h1>
                 
             </div>
-            <div className="project-container">
+            <div className="project-container m-5">
+               <div className="row row-cols-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 g-4">
                 {projects.map((project) => (
-                    <div>
+                    <div className="col-12 ">
 
-                    {/* <div className="row row-cols-1 row-cols-md-2 g-4"> */}
-                    <div className="">
-                    <div className="col">
-
-                            <div className="card projectCard" style={{ width: '30rem' }} >
-                        
+                            <div className="card projectCard" 
+                            // style={{ width: '30rem' }} 
+                            >                      
                                 <img src={project.image} alt="project-img" className="project-img img-fluid card-img-top"/>
                                 
                                 <div className="card-body">
@@ -28,13 +26,10 @@ return(
                                 </a>
                                 </div>
                             </div>
-
-                        </div>
                     </div>
-                    </div>
-
                 ))
                 }
+                </div>
             </div>
         </div>
 

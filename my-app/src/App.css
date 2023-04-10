@@ -2,7 +2,7 @@
 .App {
   text-align: center;
     font-family: 'Anek Gujarati', sans-serif;
-    background-color: #fcfbef
+    background-color: white
   ;
 }
 
@@ -52,17 +52,19 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
 
 }
 
+#projects {
+  background-color: black;
+}
 
 #project-title {
   color: hsl(0, 0%, 2%);
 }
 
-
 .projectCard {
+
   text-decoration: none;
   font-family: 'Anek Gujarati', sans-serif;
 
