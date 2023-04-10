@@ -2,7 +2,7 @@
 .App {
   text-align: center;
     font-family: 'Anek Gujarati', sans-serif;
-    background-color: white
+    background-color: #edf0f4
   ;
 }
 
@@ -34,7 +34,8 @@
 }
 
 .App-link {
-  color: hsl(75, 72%, 54%);
+  /* color: hsl(75, 72%, 54%); */
+  color: white;
   letter-spacing: 8px;
   text-decoration: none;
   font-family: 'Anek Gujarati', sans-serif;
@@ -52,11 +53,10 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
 
 #projects {
-  background-color: black;
+  /* background-color: black; */
 }
 
 #project-title {
@@ -64,25 +64,27 @@
 }
 
 .projectCard {
-
   text-decoration: none;
   font-family: 'Anek Gujarati', sans-serif;
-
+  background-color: #d0d3cf;
 }
 
 .project-img {
  filter: grayscale(100%);
 }
 
+.project-img:hover {
+  filter: grayscale(0%);
+}
+
 
 .projectLink {
   text-decoration: none;
-  text-shadow: 2px 2px 5px rgb(3, 3, 3);
-  font-family: 'Anek Gujarati', sans-serif;
+  color: black;
 }
 
 a:hover {
-  color: #000000;
+  color: #2e5027;
 }
 
 
