@@ -1,0 +1,152 @@
+/* APP STYLING */
+/* font-family: 'Roboto Condensed',
+sans-serif; */
+/* font-family: 'Righteous',
+cursive; */
+/* font-family: 'Anek Gujarati',
+sans-serif; */
+
+.App {
+  text-align: center;
+    background-color: #f4f1ea;
+    font-family: 'Roboto Condensed',
+    sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:#011dcb;
+}
+
+.App-header{
+  font-family: 'Righteous',
+  cursive;
+  text-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+
+.App-link {
+  color: #697e8c;
+  letter-spacing: 8px;
+  text-decoration: none;
+  font-family: 'Roboto Condensed',
+  sans-serif;
+}
+
+/* .App-link.active {
+  color: blue;
+  text-decoration: underline;
+} */
+
+/* ABOUT STYLING */
+.abtHead {
+  font-style: oblique;
+}
+
+.about{
+  text-align: left;
+  font-size: larger;
+  color: #2a1e11;
+}
+
+.skills{
+  text-align: center;
+}
+
+
+/* PORTFOLIO STYLING */
+.project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#projects {
+  /* background-color: black; */
+}
+
+#project-title {
+  color:#011dcb;
+  font-weight: 800;
+  font-family: 'Righteous',
+  cursive;
+}
+
+.projectCard {
+ text-decoration: none;
+ background-color:#f1c661;
+}
+
+.project-img {
+ /* filter: grayscale(100%); */
+}
+
+.project-img:hover {
+
+}
+
+.card-title{
+  font-weight: 400;
+}
+
+.projectLink {
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white#011dcb;
+}
+
+#contact-title {
+  color: #011dcb;
+  font-weight: 800;
+  font-family: 'Righteous',
+    cursive;
+}
+
+
+/* FOOTER STYLING */
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer ul li {
+ display: inline;
+ font-size: 3rem;
+ padding: 1rem;
+ color: white;
+/* box-shadow : 5px 5px 10px #011dcb; */
+}
+
+.footer-btn{
+ background-color: #70ba9f;
+ width: 5rem;
+ margin: 1rem;
+ min-height: 5vh;
+/* text-shadow: 5px 5px 10px #011dcb; */
+}
+
+.footer{
+  background-color:#697e8c;
+  display: flex;
+  justify-content: center;
+}
