@@ -16,6 +16,7 @@ Run `npm start` to run the application in devlopment mode.
 See 'Getting Started with Create React App' below for helpful links and available scripts that come with create react app.
 
 ## View
+Deployed Application via Heroku: [Mika's Portfolio](https://mikas-portfolio.herokuapp.com/)
 <img width="1155" alt="portfolio-mika" src="https://user-images.githubusercontent.com/110942241/231195232-65e64aeb-2f10-46fe-8255-8ac6bc99675e.png">
 
 
