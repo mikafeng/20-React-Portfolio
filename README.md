@@ -15,6 +15,10 @@ Run `npm start` to run the application in devlopment mode.
 
 See 'Getting Started with Create React App' below for helpful links and available scripts that come with create react app.
 
+## View
+<img width="1155" alt="portfolio-mika" src="https://user-images.githubusercontent.com/110942241/231195232-65e64aeb-2f10-46fe-8255-8ac6bc99675e.png">
+
+
 ### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
