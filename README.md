@@ -1,4 +1,4 @@
-# Mika's Portfolio 
+# Developer Portfolio 
 
 A portfolio showcasing different projects with an about me, contact and footer section.
 
