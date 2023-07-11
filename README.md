@@ -1,10 +1,30 @@
 # Developer Portfolio 
 
-A portfolio showcasing different projects with an about me, contact and footer section.
+A portfolio built with React and Bootstrap showcasing different projects with an about me, contact and footer section.
 
 ## Description
 
-This portfolio is created with React and Bootstrap. It is a single page web application that has a simple template to customize to user's needs. 
+Problem:
+A web developer needs to create a portfolio that effectively showcases their work, skills, and contact information. They want to provide a seamless user experience and ensure that visitors can easily navigate through different sections without page reloads.
+
+Solution:
+The web developer portfolio is a single-page application with a header, content section, and footer.
+
+The header includes the developer's name and a navigation menu for easy section access without page reloads.
+
+By default, the "About Me" section is selected when the portfolio is loaded for the first time. This section includes a recent photo or avatar of the developer and a concise bio, allowing visitors to gain a quick understanding of the developer's background.
+
+The "Portfolio" section showcases six applications with titled images. Each image is linked to both the deployed application and the corresponding GitHub repository, allowing users to explore the developer's projects easily.
+
+In the "Contact" section, a user-friendly contact form is provided with fields for name, email address, and message. It includes validation logic that notifies users if a field is required or if an invalid email address is entered.
+
+The "Resume" section features a downloadable link to the developer's resume and a list of their technical skills.
+
+The footer contains text or icon links to the developer's GitHub and LinkedIn profiles, as well as their profile on a third platform like Stack Overflow or Twitter, enabling visitors to connect with the developer on various platforms.
+
+This solution offers a clear and user-friendly experience for exploring the developer's portfolio, skills, and contact details.
+
+Remember to customize the actual implementation based on your specific portfolio design and requirements.
 
 ## Installation
 
