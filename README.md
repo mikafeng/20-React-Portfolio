@@ -1,6 +1,6 @@
 # Developer Portfolio 
 
-A portfolio built with React and Bootstrap showcasing different projects with an about me, contact and footer section.
+A portfolio built with React and Bootstrap showcasing different projects with an about me, project, contact and footer section.
 
 ## Description
 
