@@ -21,8 +21,8 @@ return(
                                 <div className="card-body">  
                                     <h2 className="card-title">{project.title}</h2>
                                     <img src={project.image} alt="project-img" className="project-img img-fluid card-img-top"/>
-                                    <h4>{project.subtitle}</h4>
-                                    <p className="card-text p-2">{project.description}</p>
+                                    <h4>{project.description}</h4>
+                                    <p className="card-text p-2">{project.subtitle}</p>
                                     <li>
                                         <a href={project.link}>
                                             Deployed Application

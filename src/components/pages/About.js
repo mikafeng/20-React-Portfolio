@@ -1,4 +1,5 @@
 import React from "react";
+// import photo from "../../assets/portrait.jpg"
 
 
 export default function About() {
@@ -13,7 +14,7 @@ return(
                 I constantly integrate my diverse skill set to push the boundaries of technology and foster a more equitable and 
                 innovative world. 
                 I aim to craft exceptional web experiences and contribute to the ongoing evolution of user-centric solutions.
-
+           
             </p>
         
             <div className="col p-3 skills">

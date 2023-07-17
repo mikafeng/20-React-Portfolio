@@ -10,16 +10,16 @@ export const projects = [
     {   
         id: 0,
         title: "artfolio",
-        subtitle: "fullstack application",
-        description: "Artfolio is an application designed to support local artists.",
+        subtitle: "React, Node.js, Express, GraphQL, Apollo-server-express, @appolloclient, jsonwebtoken",
+        description: "Artfolio is an application for local artists to showcase their work. Artists can upload galleries and users can create a profile to save or buy favorite artworks.",
         link: "",
         repository: "https://github.com/mikafeng/artfolio",
-        image: artfolio,
+        image: artfolio
     },
     {
         id: 1,
         title:"Where's My Wings",
-        subtitle:"MVC, MySQL",
+        subtitle:"MVC framework, MySQL, Leaflet, Handlebars, Sequelize, Express, Node.js",
         description:"Where's My Wings is an application designed to locate the best chicken wings locations and food trucks in the Atlanta area.",
         link: "",
         repository: "https://github.com/mikafeng/Wheres-My-Wings",
@@ -28,7 +28,7 @@ export const projects = [
     {
         id: 2,
         title: "Weather Vibes",
-        subtitle: "youtube API",
+        subtitle: "youtube API, open weather API HTML, CSS, Javascript",
         description: "Website that pairs music with current weather in your city using APIs.",
         image: vibes,
         link: "https://swaguespack.github.io/WeatherVibes/",
@@ -37,7 +37,7 @@ export const projects = [
     {
         id: 3,
         title: "Tech Blog",
-        subtitle: "MVC framework",
+        subtitle: "MVC framework, express, sequelize, MySQL, Handlebars",
         description: "A CMS style blog using a MVC framework that revolves around users sharing their thoughts on tech.",
         image: teachBlog,
         link: "https://tech-blog-mika.herokuapp.com/",
@@ -64,7 +64,7 @@ export const projects = [
     {
         id: 6,
         title: "Work Day Scheduler",
-        subtitle: "front-end javascript web application",
+        subtitle: "front-end javascript web application using Bootstrap, jQuery, day.js",
         description: "An application allowing users to save tasks and see where in the day they fall relative to the current time.",
         image: work,
         link: "https://mikafeng.github.io/Workday-Scheduler/",
