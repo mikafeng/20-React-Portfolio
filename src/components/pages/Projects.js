@@ -11,15 +11,16 @@ return(
             </div>
             <div className="project-container m-5">
                <div className="row row-cols-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 g-4">
-                {projects.map((project) => (
+                {projects.map((project => 
                     <div className="col-12 ">
 
-                            <div className="card projectCard" 
+                            <div key={project.id} className="card projectCard" 
                             // style={{ width: '30rem' }} 
                             >                      
-                                <img src={project.image} alt="project-img" className="project-img img-fluid card-img-top"/>
+                                
                                 <div className="card-body">  
                                     <h2 className="card-title">{project.title}</h2>
+                                    <img src={project.image} alt="project-img" className="project-img img-fluid card-img-top"/>
                                     <h4>{project.subtitle}</h4>
                                     <p className="card-text p-2">{project.description}</p>
                                     <li>
