@@ -12,7 +12,7 @@ function NavTabs({currentPage, handlePageChange}) {
         {/* NAVTABS */}
         {/* In <a> tag, use ternary operator to set active link from bootstrap if clicked nav-item is equal to currentPage.
         Else, set to a normal 'nav-link'. */}
-            <ul className="nav">
+            <ul className="nav nav-tabs">
                 <li className="nav-item">
                     <a href="#about"
                     onClick={() => handlePageChange('About')} 

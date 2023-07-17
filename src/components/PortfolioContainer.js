@@ -3,6 +3,7 @@ import NavTabs from './NavTabs';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Footer from './Footer';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('About');
@@ -27,7 +28,7 @@ export default function PortfolioContainer() {
            
             {/* Here the renderPage method is called and will return a component */}
             {renderPage()}
-
+            <Footer />
         </div>
     )
 };

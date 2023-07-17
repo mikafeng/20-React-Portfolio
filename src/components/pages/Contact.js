@@ -17,6 +17,7 @@ export default function Contact() {
         <section className="m-3">
             <div>
                 <h1 id="contact-title">CONTACT</h1>
+                <h2>Get in touch with me at mikafengler@gmail.com</h2>
             </div>
             <form onSubmit={handleSubmit}>
                 <div className="row">

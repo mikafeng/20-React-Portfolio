@@ -18,13 +18,23 @@ return(
                             // style={{ width: '30rem' }} 
                             >                      
                                 <img src={project.image} alt="project-img" className="project-img img-fluid card-img-top"/>
+                                <div className="card-body">  
+                                    <h2 className="card-title">{project.title}</h2>
+                                    <h4>{project.subtitle}</h4>
+                                    <p className="card-text p-2">{project.description}</p>
+                                    <li>
+                                        <a href={project.link}>
+                                            Deployed Application
+                                        </a>
+                                    </li>
                                 
-                                <div className="card-body">
-                                <a href={project.link} className=" projectLink link-opacity-50-hover">
-                                <h2 className="card-title">{project.title}</h2>
-                                <p className="card-text p-2">{project.description}</p>
-                                </a>
+                                    <li>
+                                    <a href={project.repository} >
+                                            GitHub Repository
+                                        </a> 
+                                    </li>
                                 </div>
+
                             </div>
                     </div>
                 ))
