@@ -4,15 +4,11 @@ import React from "react";
 function NavTabs({currentPage, handlePageChange}) {
     return (
         <>
-        {/* HEADER */}
-            <header className="App-header p-2">
-                <h1 className="display-1 p-3 m-3">mika fengler</h1>
-            </header>
 
         {/* NAVTABS */}
         {/* In <a> tag, use ternary operator to set active link from bootstrap if clicked nav-item is equal to currentPage.
         Else, set to a normal 'nav-link'. */}
-            <ul className="nav nav-tabs">
+            <ul className="nav">
                 <li className="nav-item">
                     <a href="#about"
                     onClick={() => handlePageChange('About')} 
