@@ -2,7 +2,22 @@
     color: white;
     background-color: grey;
     padding-top: 3em;
+    padding-bottom: 1em;
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+.footer-space {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-btn {
+    display: inline;
+        font-size: 3rem;
+        padding: 1rem;
+        color: white;
 }
