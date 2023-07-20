@@ -1,4 +1,40 @@
 import React from "react";
+// import { NavItem} from "react-bootstrap";
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+// import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
+// import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
+
+// function NavTabs({handlePageChange}) {
+//     return (
+//         <Navbar
+//          collapseOnSelect
+//          expand="sm"
+//          active-key="about"
+//          onClick={() => handlePageChange()}
+//         >
+//             <NavbarToggle aria-controls="responsive-navbar-nav"/>
+//             <NavbarCollapse id="responsive-navbar-nav">
+//                 <Nav>
+//                     <Nav.Item>
+//                         <NavLink eventKey="/about">About</NavLink>
+//                     </Nav.Item>
+
+//                     <Nav.Item>
+//                         <NavLink eventKey="Projects">Projects</NavLink>
+//                     </Nav.Item>
+
+//                     <Nav.Item>
+//                         <NavLink eventKey="Contact">Contact</NavLink>
+//                     </Nav.Item>
+//                 </Nav>
+//             </NavbarCollapse>
+//         </Navbar>
+//     );
+// }
+
+// export default NavTabs;
+
 
 //Use object destructuring assignment to pull props currentPage and handlePageChange from PortfolioContainer
 function NavTabs({currentPage, handlePageChange}) {

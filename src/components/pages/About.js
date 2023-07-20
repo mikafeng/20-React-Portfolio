@@ -2,15 +2,15 @@ import React from "react";
 // import photo from "../../assets/portrait.jpg"
 
 
+
 export default function About() {
 return(
 
     <section className="about m-2 p-4">
         {/* HEADER */}
         < header className="App-header p-2" >
-            <h1 className="display-1 p-3 m-3">mika fengler</h1>
+            <h1 className="display-1 p-3 m-3">welcome</h1>
         </header >
-
         <div className="row p-3">
             <p className="col about p-4 m-3"> 
                 Hi there! I'm Mika. <br/>
