@@ -14,12 +14,12 @@ export default function Contact() {
     }
 
     return(
-        <section className="m-3">
-            <div>
+        <section className="m-3 about-container">
+            <div className="about-col">
                 <h1 id="contact-title">CONTACT</h1>
                 <h2>Get in touch with me at mikafengler@gmail.com</h2>
             </div>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="about-col">
                 <div className="row">
                 <div className="r">
                 <div className="mb-3 pt-0">

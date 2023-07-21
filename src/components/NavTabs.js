@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/NavTabs.css'
 // import { NavItem} from "react-bootstrap";
 // import Nav from 'react-bootstrap/Nav';
 // import Navbar from 'react-bootstrap/Navbar';
@@ -39,7 +40,7 @@ import React from "react";
 //Use object destructuring assignment to pull props currentPage and handlePageChange from PortfolioContainer
 function NavTabs({currentPage, handlePageChange}) {
     return (
-        <>
+        <div className="nav-style">
 
         {/* NAVTABS */}
         {/* In <a> tag, use ternary operator to set active link from bootstrap if clicked nav-item is equal to currentPage.
@@ -72,7 +73,7 @@ function NavTabs({currentPage, handlePageChange}) {
                     </a>
                 </li>
             </ul>
-        </>
+        </div>
     );
  } 
 
