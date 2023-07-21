@@ -1,14 +1,8 @@
-/* APP STYLING */
-/* font-family: 'Roboto Condensed',
-sans-serif; */
-/* font-family: 'Righteous',
-cursive; */
-/* font-family: 'Anek Gujarati',
-sans-serif; */
+
 
 .App {
   text-align: center;
-    background-color: #f4f1ea;
+    background-color: #fffcf6;
     font-family: 'Roboto Condensed',
     sans-serif;
 }
@@ -47,7 +41,46 @@ sans-serif; */
   sans-serif;
 }
 
-/* Footer at Bottome of page */
+header nav{
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-block: 20px;
+  padding-left: 3em;
+}
+
+header a {
+  text-decoration: none;
+  color: #4D4D4D;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+header a:hover {
+  color: #161616;
+  text-decoration: underline;
+}
+
+.link-button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: .75rem 1.375rem;
+  color: initial;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform .1s ease-in-out;
+}
+
+.link-button:hover {
+  transform: translate(1px, 1px);
+}
+
+
+/* Footer at Bottom of page */
 .page-container {
   display: flex;
   flex-direction: column;
@@ -58,10 +91,6 @@ sans-serif; */
   flex: 1;
 }
 
-/* .App-link.active {
-  color: blue;
-  text-decoration: underline;
-} */
 
 /* ABOUT STYLING */
 .abtHead {
@@ -126,12 +155,7 @@ a:hover {
   color: white#011dcb;
 }
 
-#contact-title {
-  color: #011dcb;
-  font-weight: 800;
-  font-family: 'Righteous',
-    cursive;
-}
+
 /* 
 .about-container {
   display: flex;
@@ -142,4 +166,54 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-around;
+} */
+
+/*** CONTACT PAGE ***/
+
+#contact-title {
+  color: #011dcb;
+  font-weight: 800;
+  font-family: 'Righteous',
+    cursive;
+}
+.contact-hero-image {
+  max-width: 100%;
+}
+
+.contact-page-container {
+  padding: 45px 23px;
+}
+
+.contact-page-content {
+  padding-inline: 23px;
+  color: #161616;
+  margin-bottom: 55px;
+}
+
+.contact-page-content h1 {
+  line-height: 38px;
+}
+
+.contact-page-content p {
+  line-height: 22px;
+}
+
+/* .contact-page-cta {
+  background-color: #FFCC8D;
+  color: #161616;
+  padding-inline: 32px;
+  padding-bottom: 32px;
+  margin-inline: 27px;
+  border-radius: 5px;
+}
+
+.contact-page-cta h2 {
+  margin: 0;
+  padding-block: 37px;
+}
+
+.contact-page-cta .link-button {
+  background-color: #161616;
+  color: white;
+  border-radius: 10px;
 } */
